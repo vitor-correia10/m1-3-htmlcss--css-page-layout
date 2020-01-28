@@ -1,7 +1,9 @@
 ## Description
 
 Update only the CSS file to reproduce the following:  
-![goal](goal.gif)
+
+![exercise-12 goal](../../assets/ex-12-goal.gif)
+
 
 ## Reference
 
