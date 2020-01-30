@@ -33,7 +33,7 @@ It's approx. 1/96 inches, _but it varies from display to display._
 
 The same site on a mobile device
 
-<img src='./assets/nresp_mobile.png />
+<img src='./assets/nresp_mobile.png' />
 
 ---
 
