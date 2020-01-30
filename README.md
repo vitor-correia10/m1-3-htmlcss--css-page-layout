@@ -4,7 +4,7 @@
 
 Each exercise folder contains a README file with the exercise parameters.
 
-## Extra exercises (optional)
+## Exercises 13 to Exercise 18 (optional)
 
 The exercises in the following links will help you get more practice with CSS selectors, CSS Grid, and Flexbox.
 
