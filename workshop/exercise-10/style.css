@@ -1,26 +1,16 @@
 body {
-    margin: 0;
-}
-
-.container {
-    display: grid;
-    min-height: 100vh;
-}
-
-.nav {
-    height: 50px;
-    background-color: rebeccapurple;
-}
-
-.aside {
-    background-color: forestgreen;
+  margin: 0;
 }
 
 .main {
-
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.footer {
-    height: 100px;
-    background-color: midnightblue;
+.fast {
+}
+
+.cool {
 }

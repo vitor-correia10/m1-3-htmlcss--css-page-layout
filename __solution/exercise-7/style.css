@@ -1,14 +1,40 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
-.main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.mobile-nav-button img {
+  width: 18px;
 }
 
-.product-img {
-    width: 100%;
-    display: block;
-    outline: 1px solid red;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.desktop-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.desktop-nav ul li {
+  margin: 0 20px;
+}
+
+.desktop-nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+@media (min-width: 800px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .desktop-nav {
+    display: none;
+  }
 }
