@@ -9,8 +9,40 @@ body {
   justify-content: center;
 }
 
+@keyframes helloo {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateX(0%);
+      opacity: 1;
+  }
+}
+
 .fast {
+  animation: helloo 1500ms;
 }
 
 .cool {
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 20px;
+  background: blue;
+  font-size: 16px;
+  box-shadow: 3px 3px 5px 10px lightgrey;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: transform 1000ms;
+  outline: none;
+}
+
+.cool:hover{
+  transform: scale(1.2); 
+}
+
+.cool:active{
+  transform: scale(0.8); 
 }

@@ -5,3 +5,44 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+/* Nav */
+.desktop-nav{
+  display: none;
+}
+
+.mobile-nav{
+  display: flex;
+}
+
+
+ul{
+  list-style-type: none;
+  display: flex;
+}
+
+
+@media (min-width: 800px){
+  .desktop-nav{
+    display: block;
+  }
+  .mobile-nav{
+    display: none;
+  }
+}
+
+li{
+  margin: 10px;
+}
+
+li:last-of-type {
+  margin-right: 0;
+}
+

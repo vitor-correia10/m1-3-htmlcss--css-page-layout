@@ -16,13 +16,13 @@ Your HTML should have the following structure:
   <head>
     <link href="style.css" rel="stylesheet" />
   </head>
-
+  
   <body>
     <div class="container">
       <!-- Stuff here -->
     </div>
   </body>
-</html>
+</   html>
 ```
 
 - Give the `<body>` a `0` margin.
