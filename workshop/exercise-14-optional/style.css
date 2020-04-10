@@ -1,0 +1,60 @@
+.btn{
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+}
+.btn-secondary{
+  color: #fff;
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+.btn-success{
+  color: #fff;
+  background-color: #28a745;
+  border: 1px solid #28a745;
+}
+
+.btn-danger{
+  color: #fff;
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.btn-warming{
+  color: #212529;
+  background-color: #ffc107;
+  border: 1px solid #ffc107;
+}
+
+.btn-info{
+  color: #fff;
+  background-color: #17a2b8;
+  border: 1px solid #17a2b8;
+}
+
+.btn-light{
+  color: #212529;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+}
+
+.btn-dark{
+  color: #fff;
+  background-color: #343a40;
+  border: 1px solid #343a40;
+}
+
+.btn-link{
+  color: #007bff;
+  background: transparent;
+  border: 1px solid transparent;
+}

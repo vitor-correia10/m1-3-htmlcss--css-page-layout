@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+p:after{
+  content:'--check it out!'
+}
+
+.alert{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.alert-primary{
+  color: #004085;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+}
+.alert-secondary{
+  color: #383d41;
+  background-color: #e2e3e5;
+  border: 1px solid #d6d8db;
+}
+
+.alert-success{
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.alert-danger{
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+.alert-warming{
+  color: #856404;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+}
+
+.alert-info{
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border: 1px solid #bee5eb;
+}
+
+.alert-light{
+  color: #818182;
+  background-color: #fefefe;
+  border: 1px solid #fdfdfe;
+}
+
+.alert-dark{
+  color: #1b1e21;
+  background-color: #d6d8d9;
+  border: 1px solid #c6c8ca;
+
+}
