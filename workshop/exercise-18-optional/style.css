@@ -1,0 +1,30 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.card{
+  margin: 5px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c6c8ca;
+}
+
+.card-header{
+  border-bottom: 1px solid #c6c8ca;
+  padding: 10px 20px;
+  background: #E8E8E8;
+}
+
+.list-group{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-group-item{
+  border-bottom: 1px solid #c6c8ca;
+  padding: 10px 20px; 
+}
+
